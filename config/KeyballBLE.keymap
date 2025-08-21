@@ -78,10 +78,10 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))  &kp UP_ARROW    &kp LC(TAB)      &trans                              &trans  &trans  &trans  &trans  &trans
-&kp HOME        &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END  &trans             &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp LC(LEFT)     &trans          &kp LC(RIGHT)    &trans   &kp LS(RIGHT)      &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans           &trans          &trans           &trans   &trans             &trans  &trans                          &trans
+&kp ESCAPE      &kp LC(LS(TAB))  &kp UP_ARROW    &kp LC(TAB)      &trans                              &trans    &trans           &trans       &trans    &trans
+&kp HOME        &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END  &trans             &trans  &mkp MB4  &kp LC(LS(TAB))  &kp LC(TAB)  &mkp MB5  &trans
+&kp LEFT_SHIFT  &kp LC(LEFT)     &trans          &kp LC(RIGHT)    &trans   &kp LS(RIGHT)      &trans  &trans    &trans           &trans       &trans    &trans
+&trans          &trans           &trans          &trans           &trans   &trans             &trans  &trans                                            &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LG(KP_MINUS) LG(PLUS)>;
@@ -125,10 +125,10 @@
 
         layer_7 {
             bindings = <
-&kp Q             &kp W              &kp E         &kp O         &kp P                                    &trans  &trans  &trans  &trans  &trans
-&mt LEFT_SHIFT S  &kp D              &kp R         &kp T         &kp Y      &tog 7                &trans  &trans  &trans  &trans  &trans  &trans
-&kp Z             &kp X              &kp C         &kp V         &kp SPACE  &kp LEFT_COMMAND      &trans  &trans  &trans  &trans  &trans  &trans
-&kp NUMBER_1      &mt RALT NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5     &kp NUMBER_6          &trans  &trans                          &trans
+&kp Q             &kp W              &kp E  &kp R         &kp T                                       &trans  &trans  &trans  &trans  &trans
+&mt LEFT_SHIFT A  &kp S              &kp D  &kp O         &kp M         &tog 7                &trans  &trans  &trans  &trans  &trans  &trans
+&kp Z             &kp X              &kp C  &kp V         &kp NUMBER_3  &kp NUMBER_4          &trans  &trans  &trans  &trans  &trans  &trans
+&kp NUMBER_1      &mt RALT NUMBER_2  &kp P  &kp LEFT_ALT  &kp SPACE     &kp LEFT_COMMAND      &trans  &trans                          &trans
             >;
         };
     };
