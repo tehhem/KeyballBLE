@@ -89,10 +89,10 @@
 
         NUM {
             bindings = <
-&kp MINUS                   &kp NUMBER_1     &kp NUMBER_2     &kp NUMBER_3     &kp PLUS                                              &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp BACKSLASH               &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp SEMI   &kp EXCLAMATION   &kp QUESTION       &kp HASH        &kp DOLLAR            &kp PERCENT
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp AT_SIGN   &kp EQUAL                    &kp SQT    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp SLASH
-&trans                      &trans           &trans           &trans           &trans        &trans                       &kp COMMA  &kp PERIOD                                                                 &kp PIPE
+&kp MINUS                   &kp NUMBER_1     &kp NUMBER_2     &kp NUMBER_3     &kp PLUS                                                  &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp BACKSLASH               &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp SQT        &kp EXCLAMATION   &kp QUESTION       &kp HASH        &kp DOLLAR            &kp PERCENT
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp AT_SIGN   &kp EQUAL                    &kp SEMICOLON  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp SLASH
+&trans                      &trans           &trans           &trans           &trans        &trans                       &kp COMMA      &kp PERIOD                                                                 &kp PIPE
             >;
         };
 
