@@ -82,7 +82,7 @@
 &kp ESCAPE      &kp LC(LS(TAB))  &kp UP_ARROW    &kp LC(TAB)      &trans                          &trans    &trans           &trans       &trans    &trans
 &kp HOME        &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END   &trans        &trans  &mkp MB4  &kp LC(LS(TAB))  &kp LC(TAB)  &mkp MB5  &trans
 &kp LEFT_SHIFT  &kp LC(LEFT)     &trans          &kp LC(RIGHT)    &mkp MB4  &mkp MB5      &trans  &trans    &trans           &trans       &trans    &trans
-&trans          &trans           &trans          &trans           &trans    &trans        &trans  &trans                                            &trans
+&kp LG(TAB)     &trans           &trans          &trans           &trans    &trans        &trans  &trans                                            &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LG(KP_MINUS) LG(PLUS)>;
