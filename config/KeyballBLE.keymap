@@ -23,6 +23,11 @@
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <20 21>;
         };
+
+        mouse {
+            bindings = <&tog 4>;
+            key-positions = <18 19>;
+        };
     };
 
     macros {
