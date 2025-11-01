@@ -131,8 +131,8 @@
 
         layer_7 {
             bindings = <
-&kp Q         &kp W              &kp E  &kp A  &kp S                                    &trans  &trans  &trans  &trans  &trans
-&kp Z         &kp T              &kp D  &kp O  &kp P      &tog 7                &trans  &trans  &trans  &trans  &trans  &trans
+&kp Q         &kp W              &kp E  &kp R  &kp T                                    &trans  &trans  &trans  &trans  &trans
+&kp A         &kp S              &kp D  &kp O  &kp P      &tog 7                &trans  &trans  &trans  &trans  &trans  &trans
 &kp LEFT_ALT  &kp C              &kp V  &kp R  &kp Z      &kp X                 &trans  &trans  &trans  &trans  &trans  &trans
 &kp NUMBER_1  &mt RALT NUMBER_2  &kp B  &kp Y  &kp SPACE  &kp LEFT_COMMAND      &trans  &trans                          &trans
             >;
