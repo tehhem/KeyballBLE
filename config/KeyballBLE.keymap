@@ -131,10 +131,10 @@
 
         layer_7 {
             bindings = <
-&kp Q           &kp W              &kp E  &kp N5        &kp NUMBER_6                                &trans  &trans  &trans  &trans  &trans
-&mt LEFT_ALT A  &kp S              &kp D  &kp O         &kp P         &tog 7                &trans  &trans  &trans  &trans  &trans  &trans
-&mt LEFT_ALT Z  &kp X              &kp C  &kp V         &kp R         &kp T                 &trans  &trans  &trans  &trans  &trans  &trans
-&kp NUMBER_1    &mt RALT NUMBER_2  &kp B  &kp LEFT_ALT  &kp SPACE     &kp LEFT_COMMAND      &trans  &trans                          &trans
+&kp Q           &kp W              &kp E  &kp N5  &kp NUMBER_6                                &trans  &trans  &trans  &trans  &trans
+&mt LEFT_ALT A  &kp S              &kp D  &kp O   &kp P         &tog 7                &trans  &trans  &trans  &trans  &trans  &trans
+&mt LEFT_ALT Z  &kp X              &kp C  &kp V   &kp R         &kp T                 &trans  &trans  &trans  &trans  &trans  &trans
+&kp NUMBER_1    &mt RALT NUMBER_2  &kp B  &kp Y   &kp SPACE     &kp LEFT_COMMAND      &trans  &trans                          &trans
             >;
         };
     };
